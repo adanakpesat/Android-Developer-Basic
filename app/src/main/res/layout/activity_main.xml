@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+       />
+
+    <TextView
+        android:id="@+id/labelnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nama!"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="5dp"
+        />
+
+    <EditText
+        android:id="@+id/inputnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan nama anda"
+        />
+
+    <TextView
+        android:id="@+id/labelkelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kelas!"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginStart="5dp"
+        />
+
+    <EditText
+        android:id="@+id/inputkelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan kelas anda"
+        />
+
+    <Button
+        android:id="@+id/btnSumbit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center"
+        android:backgroundTint="#2E7D32"
+        />
+
+    <TextView
+        android:id="@+id/tampilnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tampilkelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyProjectAndroid"
+        tools:ignore="WrongManifestParent"
+        tools:targetApi="31">
+        <activity
+            android:name=".doaharianActivity2"
+            android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".latihanVisibilityActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreendoaActivity2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dashboardDoaActivity2"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".listpemrogramanActivity2"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".latihanListActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".listNamaActivity2"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".belajarScrollViewActivity2"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".belajarCardActivity2"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".dashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".relatifAnimationActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".belajarRelativeActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".TravelActivity2"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".DetailActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".OpenCameraActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".calculatorActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".CountActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".secoondActivity"
+            android:exported="false"
+            tools:ignore="WrongManifestParent" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            tools:ignore="WrongManifestParent" />
+    </application>
+
+</manifest>

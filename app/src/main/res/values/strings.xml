@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My project android</string>
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="description">
+        When the kingdom\'s most wanted—and most charming—bandit Flynn Rider hides in a mysterious tower, the last thing he expects to find is Rapunzel, a spirited teen with an unlikely superpower—70 feet of magical golden hair! Together, the unlikely duo sets off on a fantastic journey filled with surprising heroes, laughter and suspense. This Little Golden Book retelling of Disney Tangled will thrill young children with its beautiful full-color illustrations.
+        When the kingdom\'s most wanted—and most charming—bandit Flynn Rider hides in a mysterious tower, the last thing he expects to find is Rapunzel, a spirited teen with an unlikely superpower—70 feet of magical golden hair! Together, the unlikely duo sets off on a fantastic journey filled with surprising heroes, laughter and suspense. This Little Golden Book retelling of Disney Tangled will thrill young children with its beautiful full-color illustrations.</string>
+    <string name="judul_doa"><![CDATA[Doa & Dzikir App]]></string>
+    <string name="doa_harian"><![CDATA[Doa & dzikir harian]]></string>
+</resources>

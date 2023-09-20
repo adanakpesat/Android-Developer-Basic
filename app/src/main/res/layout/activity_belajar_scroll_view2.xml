@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".belajarScrollViewActivity2">
+
+    <ImageView
+        android:id="@+id/ivdes"
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:src="@drawable/swiss_destination"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:id="@+id/ivbook"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/tangled" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tangled"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/ivbook"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/des1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="J.K.Rowling"
+        android:textSize="13dp"
+        android:layout_toRightOf="@+id/ivbook"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/baseline_star_24"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_below="@+id/judul"
+        android:layout_toRightOf="@+id/des1"
+        />
+
+
+    <TextView
+        android:id="@+id/des2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.6"
+        android:textSize="13dp"
+        android:layout_toRightOf="@+id/star"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="2dp"
+        />
+    <TextView
+        android:id="@+id/des3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150 reviews"
+        android:textSize="13dp"
+        android:layout_toRightOf="@+id/des2"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/box1"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="35dp"
+        android:layout_below="@+id/ivbook"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="self-davelopment"
+            android:textSize="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/box2"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="35dp"
+        android:layout_below="@+id/ivbook"
+        android:layout_toRightOf="@+id/box1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="non-ficsion"
+            android:textSize="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/box3"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="35dp"
+        android:layout_below="@+id/ivbook"
+        android:layout_toRightOf="@+id/box2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="spiritual design"
+            android:textSize="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            />
+
+
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/judulS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Synopsis"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/box1"
+        />
+    <ScrollView
+        android:id="@+id/svdes"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/judulS"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/destn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:lineHeight="24dp"
+                android:text="@string/description"
+                />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/judulR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Review"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/svdes"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btncon"
+        android:layout_below="@+id/judulR"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv1"
+                android:layout_width="360dp"
+                android:layout_height="120dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:id="@+id/judulW"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Woody Woodpecker"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="15dp" />
+
+                    <TextView
+                        android:id="@+id/isi2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="25dp"
+                        android:text="Polismen is trying to tell us something that all men should be a gentle and face their guilt. The impact is you choice, do what you want"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/judulW"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="360dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/cv1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:id="@+id/judukJ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="jecky Woodpecker"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="15dp" />
+                    <TextView
+                        android:id="@+id/isi3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Polismen is trying to tell us something that all men should be a gentle and face their guilt. The impact is you choice, do what you want"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@id/judukJ"
+
+
+
+
+                        />
+
+                </RelativeLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btncon"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Continue reading"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+
+        />
+
+
+</RelativeLayout>
